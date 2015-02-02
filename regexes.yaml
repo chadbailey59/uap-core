@@ -491,6 +491,24 @@ user_agent_parsers:
     family_replacement: 'Python Requests'
 
 os_parsers:
+  # CB
+  - regex: 'iTunes.*(Macintosh;\sOS\sX)\s(\d+)\.(\d+)\.?(\d+)?\)\sAppleWebKit'
+    os_replacement: 'Mac OS X'
+
+  - regex: '^NSPlayer/12.*'
+    os_replacement: 'Windows Phone'
+    os_v1_replacement: '8'
+
+  - regex: 'Stitcher/iOS.*'
+    os_replacement: 'iOS'
+
+  - regex: 'overcast\.fm.*iOS'
+    os_replacement: 'iOS'
+
+  - regex: 'iTunes.*Downcast'
+    os_replacement: 'Apple'
+
+    #
   ##########
   # HbbTV vendors
   ##########
