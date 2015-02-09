@@ -1,4 +1,26 @@
 user_agent_parsers:
+
+  ## CB ##
+
+  - regex: 'Mozilla.*BeyondPod'
+    family_replacement: 'BeyondPod'
+
+  - regex: '^(NSPlayer)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Windows Phone'
+
+  - regex: "^(Overcast)/(\d+)\.(\d).*iOS podcast app"
+
+  - regex: '(Pocket Casts)'
+
+  - regex: '(Podcasts)\/(\d+)\.(\d+)?\.?(\d+)?'
+    family_replacement: 'Podcasts.app'
+
+  - regex: "(Stitcher)\/iOS"
+
+  - regex: "ZDM.*(Windows\sMobile)\s(\d+)\.?(\d+)?"
+
+  - regex: "iTunes.*(Downcast)\/(\d+)\.(\d+)?\.?(\d+)?\.?(\d+)?"
+    
   #### SPECIAL CASES TOP ####
 
   # HbbTV standard defines what features the browser should understand.
@@ -507,6 +529,9 @@ os_parsers:
 
   - regex: 'iTunes.*Downcast'
     os_replacement: 'Apple'
+
+  - regex: 'Mozilla.*(BeyondPod)'
+    os_replacement: 'Android'
 
     #
   ##########

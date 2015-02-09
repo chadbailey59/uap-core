@@ -1,8 +1,62 @@
 test_cases:
 
-  - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
-    family: 'AdobeAIR'
+  - user_agent_string: "Mozilla/5.0 (Linux; U; en-us; BeyondPod)"
+    family: 'BeyondPod'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: "NSPlayer/12.00.9651.0000"
+    family: 'Windows Phone'
+    major: '12'
+    minor: '00'
+    patch: '9651'
+
+  - user_agent_string: "Overcast/1.0 (+http://overcast.fm/; iOS podcast app)"
+    family: 'Overcast'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: "Pocket Casts"
+    family: 'Pocket Casts'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: "Podcasts/1.2.3"
+    family: 'Podcasts.app'
+    major: '1'
+    minor: '2'
+    patch: '3'
+
+  - user_agent_string: "Podcasts/2.2"
+    family: 'Podcasts.app'
     major: '2'
-    minor: '5'
-    patch: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: "Stitcher/iOS"
+    family: 'Stitcher'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: "ZDM/4.0; Windows Mobile 7.0; "
+    family: 'Windows Mobile'
+    major: '7'
+    minor: '0'
+    patch:
+
+  - user_agent_string: "iTunes/10.7 Downcast/2.8.14.1002"
+    family: 'Downcast'
+    major: '2'
+    minor: '8'
+    patch: '14'
+
+  - user_agent_string: "iTunes/10.7 Downcast/2.8.19.1012"
+    family: 'Downcast'
+    major: '2'
+    minor: '8'
+    patch: '19'
 
