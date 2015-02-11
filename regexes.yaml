@@ -8,18 +8,18 @@ user_agent_parsers:
   - regex: '^(NSPlayer)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Windows Phone'
 
-  - regex: "^(Overcast)/(\d+)\.(\d).*iOS podcast app"
+  - regex: '^(Overcast)/(\d+)\.(\d).*iOS podcast app'
 
   - regex: '(Pocket Casts)'
 
   - regex: '(Podcasts)\/(\d+)\.(\d+)?\.?(\d+)?'
     family_replacement: 'Podcasts.app'
 
-  - regex: "(Stitcher)\/iOS"
+  - regex: '(Stitcher)\/iOS'
 
-  - regex: "ZDM.*(Windows\sMobile)\s(\d+)\.?(\d+)?"
+  - regex: 'ZDM.*(Windows\sMobile)\s(\d+)\.?(\d+)?'
 
-  - regex: "iTunes.*(Downcast)\/(\d+)\.(\d+)?\.?(\d+)?\.?(\d+)?"
+  - regex: 'iTunes.*(Downcast)\/(\d+)\.(\d+)?\.?(\d+)?\.?(\d+)?'
     
   #### SPECIAL CASES TOP ####
 
